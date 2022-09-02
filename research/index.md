@@ -6,25 +6,10 @@ nav:
 ---
 
 # <i class="fas fa-microscope"></i>Research
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 {% include section.html %}
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
-<div class="block-title"><h3>课题研究</h3></div>
-<br>
 
 雪梨课题组的基础研究主要集中在：1）信号处理：图像处理、阵列信号处理、目标检测与识别、人工智能等；2）集成电路设计：低功耗、高能效、高算力等构架与电路设计。
 主要应用方向包括：1）先进医疗：面向医学临床需求，提供医护人员更好的诊疗手段和工具，实现重大疾病的精准诊断与治疗。重点研究消化道微成像系统、高精度肺部穿刺手术导航系统。2）海洋探索：旨在解决水下空间、能量受限条件下如何“看得清、认得准”等问题。重点研究水下可重构声纳阵列信号处理、水下光学图像处理、面向水下无人平台的智能芯片系统设计等。3）便携式人机交互：旨在解决“无处不在”的人机自然交互问题，实现随时随地、舒适、方便的口袋式或穿戴式自然交互，满足人们对高品质生活的不断追求。重点研究基于图像传感器结合微型投影的便携式人机交互方法与微系统设计、面向第一人称的双视人机交互方法与微系统设计。
-
 
 #### 水下成像声呐处理
 
@@ -32,7 +17,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 2）针对声呐传感器（换能器）的前端调理、AD与数字信号处理芯片设计，解决成像声呐设备的国产化、小型化、低功耗等关键问题。
 
-<br>
+
 
 ####  微型化的人机交互
 针对需人机交互的电子设备难以做小的瓶颈问题（例如计算机无法做成手机大小等），设计了一种基于微型投影和图像传感单元构成的微型人机交互系统，实现随时随地、舒适、方便的口袋式穿戴式复杂交互计算。
@@ -46,6 +31,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 研究成果：
 * 授权中国发明专利10余项
 * 发表高水平论文10余篇 
+
 #### 多镜头球囊内镜芯片与系统
 无线多视智能球囊系统，可实现无痛全视角消化道内窥镜检查，解决现有体腔内无线成像系统视角受限导致的高漏检率和暗图像难以分辨和不易理解等瓶颈问题，以提高医疗水平、改善生活品质。
 关键技术包括：
@@ -57,4 +43,4 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 研究成果：
 * 授权中国发明专利10余项
 * 发表高水平论文数十篇
-<br>
+
