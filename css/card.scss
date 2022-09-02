@@ -11,8 +11,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  width: var(--width);
-  max-width: calc(100% - 20px - 20px);
+  width: 90%;
   margin: 20px;
 
   & > * {
