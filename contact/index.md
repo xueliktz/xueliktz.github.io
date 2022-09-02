@@ -7,34 +7,34 @@ nav:
 
 # <i class="fas fa-envelope"></i>Contact
 
-Our lab is part of the [Department of Metaphor](), at the school of [Whimsy and Caprice]().
-We are located on the 13th floor of the [Center for Wit and Sagacity]().
+雪梨课题组来自于[清华大学集成电路学院]()，办公地点在[东主楼2层]()。
+
 
 {%
   include link.html
   type="email"
   icon=""
-  text="scrooge@mcduck.com"
+  text="xiexiang@tsinghua.edu.cn"
   tooltip=""
-  link="scrooge@mcduck.com"
+  link="xiexiang@tsinghua.edu.cn"
   style="button"
 %}
 {%
   include link.html
   type="phone"
   icon=""
-  text="(555) 867-5309"
+  text="+8613321175215"
   tooltip=""
-  link="+1-555-867-5309"
+  link="+8613321175215"
   style="button"
 %}
 {%
   include link.html
   type="address"
   icon=""
-  text="Google Maps"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps/place/That+St+%26+The+Other+St,+Porters+Lake,+NS+B3E+1H3,+Canada/@44.7389237,-63.3033296,20.78z/data=!4m5!3m4!1s0x4b5a31023bb02565:0xb9505694e83a53d7!8m2!3d44.7389353!4d-63.3030828"
+  text="Baidu Maps"
+  tooltip="Our location on Baidu Maps for easy navigation"
+  link="https://map.baidu.com/poi/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%A4%AE%E4%B8%BB%E6%A5%BC-%E4%B8%9C%E4%B8%BB%E6%A5%BC/@12951077.946251567,4839338.557067918,19z?uid=19862a8907d14cb80ab93a5c&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&pcevaname=pc4.1&querytype=detailConInfo&da_src=shareurl"
   style="button"
 %}
 {:.center}
@@ -64,34 +64,4 @@ Canada
 {% endcapture %}
 {% include two-col.html col1=col1 col2=col2 %}
 
-<div class="row">
-<!-- Contact Info -->
-<div class="col-xs-12 col-sm-4">
-    <div class="lm-info-block gray-default">
-    <i class="lnr lnr-map-marker"></i>
-    <h4>清华大学东主楼214</h4>
-    <span class="lm-info-block-value"></span>
-    <span class="lm-info-block-text"></span>
-    </div>
-    <div class="lm-info-block gray-default">
-    <i class="lnr lnr-apartment"></i>
-    <h4>清华大学集成电路学院<h4>
-    <span class="lm-info-block-value"></span>
-    <span class="lm-info-block-text"></span>
-    </div>
-    <div class="lm-info-block gray-default">
-    <i class="lnr lnr-phone-handset"></i>
-    <h4>+8613321175215</h4>
-    <span class="lm-info-block-value"></span>
-    <span class="lm-info-block-text"></span>
-    </div>
-    <div class="lm-info-block gray-default">
-    <i class="lnr lnr-envelope"></i>
-    <h4><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#105;&#110;&#106;&#117;&#110;&#64;&#98;&#117;&#102;&#102;&#97;&#108;&#111;&#46;&#101;&#100;&#117;">xiexiang@tsinghua.edu.cn</h4>
-    <span class="lm-info-block-value"></span>
-    <span class="lm-info-block-text"></span>
-    </div>
 
-</div>
-<!-- End of Contact Info -->
-</div>
