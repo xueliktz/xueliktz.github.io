@@ -8,6 +8,18 @@ nav:
 # <i class="fas fa-microscope"></i>Research
 {% include section.html %}
 
+
+{%
+  include card.html
+  image="images/home.svg"
+  link="https://nasa.gov/"
+  title="基础研究与应用方向"
+  description="A cool description"
+  tooltip="A cool tooltip"
+  tags="tag A, tag B, tag C"
+  style="large"
+%}
+
 雪梨课题组的基础研究主要集中在：1）信号处理：图像处理、阵列信号处理、目标检测与识别、人工智能等；2）集成电路设计：低功耗、高能效、高算力等构架与电路设计。
 主要应用方向包括：1）先进医疗：面向医学临床需求，提供医护人员更好的诊疗手段和工具，实现重大疾病的精准诊断与治疗。重点研究消化道微成像系统、高精度肺部穿刺手术导航系统。2）海洋探索：旨在解决水下空间、能量受限条件下如何“看得清、认得准”等问题。重点研究水下可重构声纳阵列信号处理、水下光学图像处理、面向水下无人平台的智能芯片系统设计等。3）便携式人机交互：旨在解决“无处不在”的人机自然交互问题，实现随时随地、舒适、方便的口袋式或穿戴式自然交互，满足人们对高品质生活的不断追求。重点研究基于图像传感器结合微型投影的便携式人机交互方法与微系统设计、面向第一人称的双视人机交互方法与微系统设计。
 
@@ -22,7 +34,7 @@ nav:
 ####  微型化的人机交互
 针对需人机交互的电子设备难以做小的瓶颈问题（例如计算机无法做成手机大小等），设计了一种基于微型投影和图像传感单元构成的微型人机交互系统，实现随时随地、舒适、方便的口袋式穿戴式复杂交互计算。
 <video width="420" height="200" controls autoplay>
-    <source src="./img/research/renji.mp4" type="video/mp4"></source>
+    <source src="./images/renji.mp4" type="video/mp4"></source>
 </video> 
 关键研究技术：
 * 基于任意投影面的高精度投影处理
