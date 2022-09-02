@@ -5,7 +5,7 @@ nav:
   tooltip: Activities in the lab
 ---
 
-# <i class="fas fa-feather-alt"></i>Blog
+# <i class="fas fa-feather-alt"></i>Activity
 
 {% include section.html %}
 
