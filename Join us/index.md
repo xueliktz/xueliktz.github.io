@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: join
 nav:
   order: 5
   tooltip: Contact and join us
